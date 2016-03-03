@@ -20,8 +20,8 @@ body{
 
 
 .wt-xs{
-	height: 21px;
-	color: rgba(0,0,0,0.5);
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
 }
 
 
@@ -57,6 +57,9 @@ body{
 	background-color: transparent;
 }
 
+.color-bg{
+	background-color: rgba(0,0,0,0.5);
+}
 
 .nav-a:hover{
 	color: #337ab7 !important;
@@ -103,12 +106,15 @@ body{
 
 .try-free{
 	background-color: #337ab7;
-	opacity: 0.8;
+	opacity: 0.5;
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
 }
 
+.ml-56{
+	    margin-left: 56px;
+}
 
 .pv-7{
 	padding-top: 7px;
@@ -121,6 +127,10 @@ body{
 	padding-right: 21px;
 }
 
+.pv-28{
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
 
 .service-title{
 	color: #869DB5;
@@ -130,10 +140,14 @@ body{
 	color: #949494;
 }
 
+.mv-21{
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
 
-.mh-28{
-	margin-top: 28px;
-	margin-bottom: 28px;
+.ph-28{
+	padding-left: 28px;
+	padding-right: 28px
 }
 
 .mt-28{
@@ -153,7 +167,6 @@ body{
 .mg-auto{
 	margin: 0 auto;
 }
-
 
 .separador{
 	margin-top: 47px;
@@ -182,4 +195,75 @@ body{
 	margin-bottom: 63px
 }
 
-.user-testing
+.user-testing{
+	background:url('../image/sec-2.jpg');
+	background-size: cover;
+	opacity:0.6;
+	height:500px;
+}
+
+.pencil-icon{
+	width: 60px;
+	height: 60px;
+	background-color: #50BDEA;
+	border-radius: 50%;
+	position: relative;
+	left: -42px;
+	float: left;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.icon-pencil, .icon-tools-2, .icon-search{
+	font-size: 35px;
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    color: white;
+}
+
+.step_link{
+	color:#50BDEA;
+}
+
+.example-title{
+	display: inline-block;
+    font-size: 3rem;
+    margin-right: 7px;
+    margin-left: 42px;
+}
+
+.example-logo{
+	width: 58%;
+	display: inline-block;
+	margin-bottom: 14px;
+}
+
+.user-usertesting{
+	background: url('../image/banner.jpg');
+	height:300px; 
+	background-size: cover;
+}
+
+.second-try{
+    opacity: 1 !important;
+    position: relative;
+}
+
+.position-footer{
+	position: absolute;
+    width: 100%;
+    opacity: 0.8
+}
+
+.icon-facebook, .icon-twitter{
+	    font-size: 4rem;
+}
+
+.clear-float{
+	clear: both;
+    float: right;
+}
+

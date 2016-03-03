@@ -24,4 +24,7 @@
 	.vcenter-try-free {
 	    display: block;
 	}
+	.title{
+		font-size: 3rem
+	}
 }
